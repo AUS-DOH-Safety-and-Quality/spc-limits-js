@@ -1,0 +1,39 @@
+{
+  "name": "spc-limits-js",
+  "version": "1.0.0",
+  "description": "Package for the calculation of Statistical Process Control (SPC) chart limits",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+      "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AUS-DOH-Safety-and-Quality/spc-limits-js.git"
+  },
+  "keywords": [
+    "spc",
+    "control-charts"
+  ],
+  "author": "HQIU - WA Health",
+  "license": "GPL-3.0-only",
+  "bugs": {
+    "url": "https://github.com/AUS-DOH-Safety-and-Quality/spc-limits-js/issues"
+  },
+  "homepage": "https://github.com/AUS-DOH-Safety-and-Quality/spc-limits-js#readme",
+  "devDependencies": {
+    "@types/d3-array": "^3.2.1",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@stdlib/math-base-special-gammaln": "^0.1.0",
+    "d3-array": "^3.2.4"
+  }
+}
