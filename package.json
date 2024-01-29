@@ -1,6 +1,6 @@
 {
   "name": "spc-limits-js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Package for the calculation of Statistical Process Control (SPC) chart limits",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
