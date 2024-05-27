@@ -12,10 +12,10 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@main
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@main
 
       - name: Install dependencies
         run: npm install
@@ -24,7 +24,7 @@ jobs:
         run: npx rollup --config rollup.config.js --configPlugin typescript
 
       - name: Upload artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@main
         with:
-          name: bundle
+          name: index.js
           path: output/index.js
