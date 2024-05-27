@@ -1,0 +1,23 @@
+{
+  "name": "spc-limits-js",
+  "version": "1.0.0",
+  "description": "Functions and utilities for calculating Statistical Process Control (SPC) chart limits",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "spc",
+    "limit"
+  ],
+  "author": "Andrew Johnson",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "@stdlib/math-base-special-gammaln": "^0.2.1",
+    "d3-array": "^3.2.4"
+  },
+  "devDependencies": {
+    "@types/d3-array": "^3.2.1",
+    "typescript": "^5.4.5"
+  }
+}
