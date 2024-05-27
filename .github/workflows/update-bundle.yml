@@ -23,6 +23,9 @@ jobs:
       - name: Build bundle
         run: npx rollup --config rollup.config.js --configPlugin typescript
 
+      - name: Remove "export.*" lines from bundle
+        run: sed -i '/^export.*/d' output/index.js
+
       - name: Upload artifact
         uses: actions/upload-artifact@main
         with:

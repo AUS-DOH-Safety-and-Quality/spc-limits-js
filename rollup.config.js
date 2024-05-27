@@ -7,7 +7,7 @@ export default {
   input: 'index.ts',
   output: {
     dir: 'output',
-    format: 'iife'
+    format: 'cjs'
   },
   plugins: [typescript(), nodeResolve(), commonjs()]
 };
