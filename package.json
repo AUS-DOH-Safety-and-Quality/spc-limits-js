@@ -1,6 +1,6 @@
 {
   "name": "spc-limits-js",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Functions and utilities for calculating Statistical Process Control (SPC) chart limits",
   "main": "index.js",
   "scripts": {
@@ -19,5 +19,9 @@
   "devDependencies": {
     "@types/d3-array": "^3.2.1",
     "typescript": "^5.4.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/AUS-DOH-Safety-and-Quality/spc-limits-js.git"
   }
 }
